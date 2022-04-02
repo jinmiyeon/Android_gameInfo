@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_rpg"
+        android:title="RPG"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_shooting"
+        android:title="SHOOTING"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_advanture"
+        android:title="ADVANTURE"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_action"
+        android:title="ACTION"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_sports"
+        android:title="SPORTS"
+        app:showAsAction="never"/>
+
+
+
+</menu>

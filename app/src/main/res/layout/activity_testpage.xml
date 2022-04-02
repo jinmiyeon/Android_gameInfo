@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D0D0D"
+    android:orientation="vertical"
+    tools:context=".testpage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="140sp"/>
+
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="게임할 때 당신은 어떤 타입 인가요?"
+        android:textColor="#FFEB3B"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="당신의 취향을 분석하여 게임 성향을 찾아드립니다!"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/testStartbtn"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="150dp"
+        android:background="@drawable/teststart"/>
+
+
+</LinearLayout>

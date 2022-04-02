@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D0D0D"
+    tools:context=".genrepage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="RPG"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/allRPGbtn"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="더보기"
+                    android:textSize="20sp"
+                    app:backgroundTint="#686767" />
+            </RelativeLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="295dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="250dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/rpg1"
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="#ff0000"
+                        android:background="@drawable/rpg1"/>
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/rpg2"
+                        android:gravity="center"
+                        android:text="#00ff00" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/rpg3"
+                        android:gravity="center"
+                        android:text="#0000ff" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="250dp"
+                        android:background="@drawable/rpg4"
+                        android:gravity="center"
+                        android:text="#ff0000" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Shooting"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/allShootingbtn"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="더보기"
+                    android:textSize="20sp"
+                    app:backgroundTint="#686767" />
+            </RelativeLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="295dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="250dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shooting1"
+                        android:gravity="center"
+                        android:text="#ff0000" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shooting2"
+                        android:gravity="center"
+                        android:text="#00ff00" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shooting3"
+                        android:gravity="center"
+                        android:text="#0000ff" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="250dp"
+                        android:background="@drawable/shooting4"
+                        android:gravity="center"
+                        android:text="#ff0000" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Advanture"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/allAdvanturebtn"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="더보기"
+                    android:textSize="20sp"
+                    app:backgroundTint="#686767" />
+            </RelativeLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="303dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="250dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/adventure1"
+                        android:gravity="center"
+                        android:text="#ff0000" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/adventure2"
+                        android:gravity="center"
+                        android:text="#00ff00" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/adventure3"
+                        android:gravity="center"
+                        android:text="#0000ff" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="250dp"
+                        android:background="@drawable/adventure4"
+                        android:gravity="center"
+                        android:text="#ff0000" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Action"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/allActionbtn"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="더보기"
+                    android:textSize="20sp"
+                    app:backgroundTint="#686767" />
+            </RelativeLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="303dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="250dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/action1"
+                        android:gravity="center"
+                        android:text="#ff0000" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/action2"
+                        android:gravity="center"
+                        android:text="#00ff00" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/action3"
+                        android:gravity="center"
+                        android:text="#0000ff" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="250dp"
+                        android:background="@drawable/action4"
+                        android:gravity="center"
+                        android:text="#ff0000" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Sports"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/allSportsbtn"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="더보기"
+                    android:textSize="20sp"
+                    app:backgroundTint="#686767" />
+            </RelativeLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="303dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="250dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/sports1"
+                        android:gravity="center"
+                        android:text="#ff0000" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/sports2"
+                        android:gravity="center"
+                        android:text="#00ff00" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/sports3"
+                        android:gravity="center"
+                        android:text="#0000ff" />
+
+                    <ImageButton
+                        android:layout_width="200dip"
+                        android:layout_height="250dp"
+                        android:background="@drawable/sports4"
+                        android:gravity="center"
+                        android:text="#ff0000" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+
+
+
+</ScrollView>
